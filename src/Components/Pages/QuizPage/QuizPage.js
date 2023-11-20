@@ -4,8 +4,15 @@ import './QuizPage.css'
 
 export default function QuizPage() {
   return (
-    <div>
-        <h2>BCS Exam - 41</h2>
+    <div className='body'>
+      <div className='Qtitle'>
+        <p>44th BCS (Preli)</p>
+        <div className='Qname'>
+          <p>General</p>
+          <p>19 May 2023</p>
+          <p>Marks 200</p>
+        </div>
+      </div>
         <Questions />
     </div>
   )
