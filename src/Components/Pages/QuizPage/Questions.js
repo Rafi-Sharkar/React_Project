@@ -1,6 +1,7 @@
 import React from 'react'
 import Question from './Question'
 import './Questions.css'
+import { FaQuestionCircle } from "react-icons/fa";
 
 export default function Questions() {
   return (
@@ -14,6 +15,8 @@ export default function Questions() {
         </div>
       </div>
       <Question />
+      <FaQuestionCircle />
+      <i class="fa-solid fa-question"></i>
     </div>
   )
 }
