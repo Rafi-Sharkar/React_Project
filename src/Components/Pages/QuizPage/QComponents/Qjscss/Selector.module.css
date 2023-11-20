@@ -1,0 +1,26 @@
+.se_main{
+    width: 100%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.heading{
+    font-size: 2.2rem;
+}
+.carddetails{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gen{
+   font-size: 1.8rem;
+   padding: 0.5rem;
+}
+.date{
+    font-size: 1.8rem;
+    padding: 0.5rem;
+}

@@ -1,0 +1,19 @@
+.quizpage_main{
+    width: 100%;
+}
+.heading{
+    font-size: 3rem;
+    text-align: center;
+    background-color: #BDB400;
+    padding: 0.5rem;
+}
+.question_con{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.question_bank{
+    width: 23%;
+}

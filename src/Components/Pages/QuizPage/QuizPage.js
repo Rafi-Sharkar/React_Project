@@ -1,19 +1,21 @@
 import React from 'react'
-import Questions from './Questions'
-import './QuizPage.css'
-
+import styles from './QuizPage.module.css'
+import Selector from './QComponents/QJs/Selector'
+import Quizdata from "./Quizdata"
 export default function QuizPage() {
   return (
-    <div className='body'>
-      <div className='Qtitle'>
-        <p>44th BCS (Preli)</p>
-        <div className='Qname'>
-          <p>General</p>
-          <p>19 May 2023</p>
-          <p>Marks 200</p>
-        </div>
+    <div className={styles.quizpage_main}>
+      <h2 className={styles.heading}>
+          Quesition
+      </h2>
+      <div className={styles.question_con}>
+        {Quizdata.map((item,index)=>
+        <div key={index} className={styles.question_bank}>
+          <Selector data={item} />
+        </div>)}
+        
       </div>
-        <Questions />
+     
     </div>
   )
 }
