@@ -1,3 +1,13 @@
 .Navbody{
-    back
+    background-color: #DDD;
+    padding: 1rem;
+}
+.Navbody ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.Navbody ul li a{
+    text-decoration: none;
+    font-size: 1.4rem;
 }
